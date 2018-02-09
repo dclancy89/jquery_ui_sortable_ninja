@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sortable Ninja</title>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+ 	<script>
+	  $( function() {
+	    $( "#ninja" ).sortable();
+	    $( "#ninja" ).disableSelection();
+	  } );
+  </script>
+
+  <style>
+  	ul {
+  		list-style: none;
+  	}
+  </style>
+
+</head>
+<body>
+
+	<ul id="ninja">
+		<li class="ui-state-default"><img src="images/sort2.png" alt="Ninja" /></li>
+		<li class="ui-state-default"><img src="images/sort5.png" alt="Ninja" /></li>
+		<li class="ui-state-default"><img src="images/sort1.png" alt="Ninja" /></li>
+		<li class="ui-state-default"><img src="images/sort4.png" alt="Ninja" /></li>
+		<li class="ui-state-default"><img src="images/sort3.png" alt="Ninja" /></li>
+	</ul>
+
+</body>
+</html>
